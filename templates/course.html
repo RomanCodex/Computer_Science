@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class = "bg-primary page-section" id="from-database">
+        <h5>Course Title: <span class=query-result>{{course.course_title}}</span></h5>
+        <h5>Course Code: <span class=query-result>{{course.course_code}}</span></h5>
+        <h5>Level: <span class=query-result>{{course.level}}</span></h5>
+        <h5>Semester: <span class=query-result>{{course.semester}}</span></h5>
+        <h5>Lecturer(s): <span class=query-result>{{course.lecturers}}</span></h5>
+        <h5>Reference Text: <span class=query-result>{{course.reference_text}}</span></h5>
+    </div>
+{% endblock content %}

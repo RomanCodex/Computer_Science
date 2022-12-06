@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="page-section bg-primary" id="from-database">
+        <h5>Name: <span class="query-result">{{lecturer.name}}</span></h5>
+        <h5>Staff ID: <span class="query-result">{{lecturer.staff_id}}</span></h5>
+        <h5>Certificate(s): <span class="query-result">{{lecturer.certificates}}</span></h5>
+        <h5>Gender: <span class="query-result">{{lecturer.gender}}</span></h5>
+        <h5>Post: <span class="query-result">{{lecturer.post}}</span></h5>
+        <h5>Date Of Birth: <span class="query-result">{{lecturer.date_of_birth}}</span></h5>
+        <h5>Bio: <span class="query-result">{{lecturer.bio}}</span></h5>
+        <h5>Hobbies: <span class="query-result">{{lecturer.hobbies}}</span></h5>
+        <h5>Facebook Username: <span class="query-result">{{lecturer.facebook_username}}</span></h5>
+        <h5>Twitter Handle: <span class="query-result">{{lecturer.twitter_handle}}</span></h5>
+        <h5>GitHub Username: <span class="query-result">{{lecturer.github_username}}</span></h5>
+    </div>
+{% endblock content %}

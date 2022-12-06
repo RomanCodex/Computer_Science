@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="page-section bg-primary"  id ="from-database">
+        {% for i in lecturers %}
+            <a href="{{i.id}}/details/" ><h5 class="text-white-75">{{ i }}</h5></a>
+        {% endfor %}
+    </div>
+
+{% endblock content %}
