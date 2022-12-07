@@ -1,0 +1,17 @@
+#from-database{
+    padding-left: 100px;
+}
+
+.query-result{
+    font-weight:lighter;
+    color: white;
+}
+
+#image-background{
+    background-image: url("../assets/img/fci.jpg");
+    height:fit-content;
+    width: 300px;
+    padding-left: 100px;
+    margin-top: 200px;
+    color: white;
+}
